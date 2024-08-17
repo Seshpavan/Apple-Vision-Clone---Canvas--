@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./fonts/sf-pro-text_regular.ttf');
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SF Pro Text";
+    font-family: "MyFont";
 }
 
 html,body{
@@ -27,18 +32,18 @@ html,body{
 
 #page1>#navM{
     background-color: black;
-    height: 6vh;
-    width: 70%;
+    height: 7vh;
+    width: 100%;
     position: absolute;
     top: 0;
-    left: 18%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #page1>#navM>img{
     margin-top: -1px;
-    height: 40%;
+    height: 1.5vw;
     width: auto;
     mix-blend-mode:difference;
 }
@@ -70,12 +75,13 @@ html,body{
     /* background-color: red; */
 }
 #page1>nav>button{
-    padding: 7px 20px;
+    padding: 0.4581151832460733vw  1.3089005235602094vw;
     border-radius: 50px;
     border: none;
     background-color: #fff;
     /* font-family: SF Pro Display; */
     font-weight: 600;
+    font-size: 1vw;
 }
 #page1>nav>h3{
     font-weight: 600;
